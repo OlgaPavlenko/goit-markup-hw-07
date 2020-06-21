@@ -1,0 +1,63 @@
+.clients {
+    padding-bottom: 94px;
+
+    h2{
+        margin-bottom: 50px;
+    }
+ }
+
+ .clients-list{
+    justify-content: space-between;
+
+    .item + .item{
+        margin-left: 30px;
+    }
+}
+
+.client-wrapper{
+    min-width: 170px;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-client{
+    color: $icon-fill;
+    border: 1px solid $icon-fill;
+    // box-sizing: border-box;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus{
+        border-color: $accent-color;
+    }
+
+    .client1{
+        padding: 20px 62.73px 20.77px 63px;
+    }
+
+    .client2{
+        padding: 19px 65px 19px 65px;
+    }
+
+    .client3{
+        padding: 24px 64px 23.4px 65px;
+    }
+
+    .client4{
+        padding: 24px 45.34px 23.98px 45px;
+    }
+
+   .client5{
+        padding: 22px 55px 21px 56px;
+    }
+
+    .client6{
+        padding: 22px 40.52px 22.56px 41px;
+    }
+}
+
+.icon-client{
+    fill: currentColor;
+}
